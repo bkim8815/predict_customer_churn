@@ -72,7 +72,7 @@ def test_encoder_helper(df, encoder_helper):
             assert f"{cat}_Churn" in encoded_df.columns
         logging.info("Testing encoder_helper: SUCCESS")
         return encoded_df
-    except FileNotFoundError as err:
+    except AssertionError as err:
         logging.error(
             "Testing encoder_helper: The encoded column was not found")
         raise err
@@ -91,7 +91,7 @@ def test_perform_feature_engineering(df, perform_feature_engineering):
         assert len(X_test) == len(y_test)
         logging.info("Testing perform_feature_engineering: SUCCESS")
         return X_train, X_test, y_train, y_test
-    except FileNotFoundError as err:
+    except AssertionError as err:
         logging.error(
             "Testing perform_feature_engineering: train, test dataset invalid")
         raise err
