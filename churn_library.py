@@ -4,6 +4,7 @@ Customer Churn library file
 This script is a common function library for customer churn model.
 
 Author: Brian Kim
+Date: Oct-11-2021
 '''
 import os
 import seaborn as sns
