@@ -1,0 +1,6 @@
+2021-10-10 23:05:54,346 - INFO - Testing import_data: SUCCESS
+2021-10-10 23:05:54,723 - INFO - NumExpr defaulting to 8 threads.
+2021-10-10 23:05:55,547 - INFO - Testing perform_eda: SUCCESS
+2021-10-10 23:05:56,043 - INFO - Testing encoder_helper: SUCCESS
+2021-10-10 23:05:56,058 - INFO - Testing perform_feature_engineering: SUCCESS
+2021-10-10 23:11:36,451 - INFO - Testing train_models: SUCCESS
